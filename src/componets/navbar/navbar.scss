@@ -1,0 +1,33 @@
+.navbar{
+    height: 100px;
+    background-color: #0c0c1d;
+    
+    
+    
+    .wrapper{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1366px;
+        margin-left: calc(100vh - 390px);
+        padding: 20px;
+        
+        height: 100%;
+    
+
+        span{
+            font-weight: bold;
+        }
+        .social{
+            display: flex;
+            gap: 20px;
+            img{
+                width: 18px;
+                height: 18px;
+            }
+        }
+        
+    }
+   
+}
