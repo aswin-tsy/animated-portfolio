@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 const textVariants ={
     initial:{
         x: -500,
+        rotate:0,
         opacity:0,
     },
     animate:{
@@ -15,7 +16,7 @@ const textVariants ={
         },
     },
     scrollButton:{
-        y: 10,
+        rotate: 360,
         opacity:0,
         transition:{
             duration:2,
